@@ -17,6 +17,7 @@
 
 body{
     background-color: #ffffff;
+    
 }
 
 
@@ -36,6 +37,15 @@ h1{
     justify-content: center;
 }
 
+.f-main-section{
+  margin: 0;
+    padding: 0;
+    height:100vh;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .main-link{
     width: 50%;
     display: flex;
@@ -112,3 +122,22 @@ h1{
         width: 100%;
     }
   }
+
+
+
+  .f-main-section div{
+    height: 55vh;
+    width: 20%;
+    padding: 25px;
+    box-shadow: -5px 10px 0px 3px rgb(0, 0, 0);
+    border: 1px solid black;
+    background-color: #4d4d4d23;
+  }
+
+
+    .f-main-section div a{
+      text-decoration: none;
+      padding: 3px 5px;
+      /* border: 1px solid black; */
+      
+    }
